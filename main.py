@@ -62,6 +62,7 @@ articles = news_data[:3]
 
 account_sid = os.environ.get("TWILIO_ACCOUNT_SID")
 auth_token = os.environ.get("TWILIO_AUTH_TOKEN")
+from_phone_number = os.environ.get("TWILIO_PHONE_NUMBER")
 my_phone_number = os.environ.get("MY_PHONE_NUMBER")
 
 client = Client(account_sid, auth_token)
@@ -82,7 +83,7 @@ for article in articles:
 
 message = client.messages.create(
     body=msg,
-    from_='+16188167193',
+    from_=from_phone_number,
     to=my_phone_number
 )
 
