@@ -13,9 +13,9 @@ The Tesla Stock Price Notification project is a Python script that retrieves the
 Before you begin, ensure you have the following prerequisites:
 
 - Python 3.x installed on your system.
-- Alpha Vantage API key. You can obtain one by signing up on the [Alpha Vantage website].(https://www.alphavantage.co/#page-top)
-- News API key. You can obtain one by signing up on the [News API website].(https://newsapi.org)
-- Twilio account and phone number. You'll need to set up a Twilio account and get your account SID, auth token, and a Twilio phone number. You can obtain those signing up on the [Twilio website].(https://www.twilio.com/en-us)
+- Alpha Vantage API key. You can obtain one by signing up on the [Alpha Vantage website](https://www.alphavantage.co/#page-top).
+- News API key. You can obtain one by signing up on the [News API website](https://newsapi.org).
+- Twilio account and phone number. You'll need to set up a Twilio account and get your account SID, auth token, and a Twilio phone number. You can obtain those signing up on the [Twilio website](https://www.twilio.com/en-us).
 
 ## Installation
 
